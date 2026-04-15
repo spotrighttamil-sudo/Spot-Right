@@ -753,7 +753,13 @@
     background: radial-gradient(ellipse 80% 80% at 50% 50%, rgba(255,77,77,0.08) 0%, transparent 70%);
   }
   .cta-inner { position: relative; max-width: 720px; margin: 0 auto; }
-  .cta-section h2 { font-size: clamp(2.5rem, 5vw, 4.5rem); margin-bottom: 20px; }
+  .cta-heading {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
   .cta-section .section-desc { margin: 0 auto 44px; }
   .cta-options {
     display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
@@ -1202,7 +1208,11 @@
 <section class="cta-section" id="contact">
   <div class="cta-inner reveal">
     <span class="section-label">Let's Build Something That Grows</span>
-    <h2>Right Place.<br>Right Audience.<br>Right Results.</h2>
+    <h2 class="cta-heading">
+  Right Place.<br>
+  Right Audience.<br>
+  Right Results.
+</h2>
     <p class="section-desc">Whether you're a brand ready to scale or looking to collaborate with South India's most engaged creators — we're ready.</p>
     <div class="cta-options">
       <a href="tel:+918778385537" class="btn-primary">Call: +91 87783 85537</a>
