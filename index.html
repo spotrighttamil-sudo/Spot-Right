@@ -143,16 +143,16 @@
   }
   @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(1.4)} }
 
-  h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(3rem, 7vw, 6.5rem);
-    font-weight: 800;
-    line-height: 0.95;
-    letter-spacing: -0.04em;
-    color: var(--cream);
-    margin-bottom: 28px;
-    animation: fadeUp 0.8s 0.15s ease both;
-  }
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.8rem); /* smaller */
+  font-weight: 800;
+  line-height: 1.1; /* more breathing space */
+  letter-spacing: -0.03em;
+  color: var(--cream);
+  margin-bottom: 28px;
+  animation: fadeUp 0.8s 0.15s ease both;
+}
   h1 em {
     font-style: normal;
     color: transparent;
@@ -863,8 +863,11 @@
   <div class="hero-grid"></div>
   <div class="hero-inner">
     <div class="hero-eyebrow">South India's Revenue-Driven Agency</div>
-    <h1>We Don't Just<br>Run Digital.<br>We <em>Drive</em> Growth.</h1>
-    <p class="hero-sub">From content shoots to performance campaigns — one team, zero gaps, measurable revenue for brands across Tamil Nadu, Kerala, Karnataka, Andhra & Telangana.</p>
+   <h1 class="hero-heading">
+  We Don't Just Run Digital.<br>
+  We <em>Drive</em> Growth.
+</h1>
+    <p class="hero-sub">From content shoots to performance campaigns - one team, zero gaps, measurable revenue for brands across Tamil Nadu, Kerala, Karnataka, Andhra & Telangana.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Book a Free Discovery Call</a>
       <a href="#services" class="btn-ghost">See Our Services</a>
